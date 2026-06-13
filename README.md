@@ -1,5 +1,11 @@
 # YOLOv8m Object Detection on Pascal VOC 2012 (5-Class Subset)
 
+## Problem Statement
+
+Object detection is a fundamental task in computer vision with applications in autonomous driving, surveillance, and robotics. However, real-world detection systems must handle challenges such as varying object sizes, occlusions, and limited computational resources. Data augmentation is widely used to improve generalization, but its specific impact on different object sizes and classes is not fully understood.
+
+This study investigates how data augmentation affects detection performance across five biologically and visually distinct classes: cat, horse, car, dog, and bird. By comparing models trained with and without augmentation, we aim to quantify the benefits of augmentation and identify which object classes and sizes benefit the most.
+
 This project trains and evaluates a YOLOv8m detector on a five-class subset of the Pascal VOC 2012 benchmark: **cat, horse, car, dog, bird**. The primary goal is to understand the full object detection pipeline — from data preparation and preprocessing to training and quantitative evaluation — and to measure how data augmentation affects generalization.
 
 ## Key Findings
